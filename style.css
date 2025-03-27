@@ -1,0 +1,153 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #1a1a1a; /* Preto */
+    color: #ffffff; /* Branco */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #800020; /* Vermelho grena */
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    text-decoration: none;
+    border: none;
+}
+header .logo img {
+    max-height: 150px;
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: solid;
+    background-color: #4d0000; /* Vermelho grena */
+    color: #ffffff;
+
+    cursor: pointer;
+}
+
+.hero {
+    background-color: #4d0000; /* Vermelho mais escuro */
+    padding: 50px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero  {
+    font-family: 'Raleway';
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero button, a {
+    background-color: #800020; /* Vermelho grena */
+    color: inherit;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hero button, a:hover {
+    background: #660019; /* Tom mais escuro */
+ 
+}
+
+.products {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: #333333; /* Cinza escuro */
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.product-card button {
+    background-color: #800020; /* Vermelho grena */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #660019; /* Tom mais escuro */
+}
+
+footer {
+    background-color: #800020; /* Vermelho grena */
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+h1, h2 {
+    font-family: 'Great Vibes', cursive;
+}
